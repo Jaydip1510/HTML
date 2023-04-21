@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Register Form</title>
+</head>
+    <body>
+    <form>    
+           <center><h1>Register</h1></center>
+           <hr>
+
+           <label><b>Name*:-</b></label>
+           <input type="text" name="uname" placeholder="Enter Firstname" required>
+           <input type="text" name="lname" placeholder="Enter Lastname" required>
+           <hr>
+
+           <label><b>Phone:-</b></label>
+           <select>
+              <option>+91</option>
+              <option>+81</option>
+              <option>+14</option>
+              <option>+99</option>
+           </select>
+           <input type="num" name="number" maxlength="10">
+           <hr>
+
+           <label><b>Email*:-</b></label>
+           <input type="email" name="email" placeholder="example@gmail.com" required>
+           <hr>
+
+           <label><b>Address*:-</b></label>
+           <textarea rows="2" cols="20" required></textarea>
+           <hr>
+
+           <label><b>Gender:-</b></label>
+           <input type="radio" name="gender" value="male">male
+           <input type="radio" name="gender" value="female">Female
+           <input type="radio" name="gender" value="others">others
+           <hr>
+
+           <label><b>Photo Profiles:-</b></label>
+           <input type="file" name="img" multiple>
+           <hr>
+
+           <label><b>Birthday:-</b></label>
+           <input type="date" name="dob">
+           <hr>
+
+           <label><b>Hobby:-</b></label><br>
+           <input type="checkbox" name="q1" value="cricket">Cricket<br>
+           <input type="checkbox" name="q2" value="traveling">Traveling<br>
+           <input type="checkbox" name="q3" value="reading">Reading<br>
+           <input type="checkbox" name="q4" value="music">Music
+           <hr>
+           <hr>
+
+            <center><h1>Login Details</h1></center>
+            <hr>
+            <hr>
+
+            <label><b>User Name*:-</b></label>
+            <input type="text" name="uname" required>
+            <hr>
+
+            <label><b>Password*:-</b></label>
+            <input type="password" name="upassword" required>
+            <hr>
+
+            <label><b>Confirm Password*:-</b></label>
+            <input type="password" name="cpassword" required>
+            <hr>
+            <hr>
+
+            <input type="submit" name="submit" value="SUBMIT">
+            <input type="reset" name="reset" value="RESET">
+            <hr>
+
+    </form>
+    </body>    
+</html>        
